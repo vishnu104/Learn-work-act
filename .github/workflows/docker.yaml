@@ -5,7 +5,7 @@ jobs:
   docker-job:
     runs-on: ubuntu-latest
     container:
-      image: rodrigotsuru/wasnd-docker
+      image: ibmcom/websphere-traditional
     steps:
       - name: Log node and OS versions
         run: |
