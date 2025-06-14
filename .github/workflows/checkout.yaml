@@ -10,6 +10,6 @@ jobs:
       - name: Checkout
         run: |
           git clone https://github.com/vishnu104/Learn-work-act.git
-          git checkout -M main 
+          
       - name: list files after checkout
         run: ls
