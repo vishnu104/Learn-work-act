@@ -3,11 +3,11 @@ on: workflow_dispatch
 
 jobs: 
   docker-job:
-    runs-on: ubuntu-latest
+    runs-on: fedora-latest
     container:
       image: ibmcom/websphere-traditional
     steps:
       - name: Log node and OS versions
         run: |
-          cat /etc/os-release
+          ls -l /opt/IBM/WebSphere/AppServer/bin
 
