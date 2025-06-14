@@ -1,0 +1,13 @@
+name: Docker
+on: workflow_dispatch
+
+jobs: 
+  docker-job:
+    runs-on: ubuntu-latest
+    container:
+      image: rodrigotsuru/wasnd-docker:latest
+    steps:
+      - name: Log node and OS versions
+        run: |
+          cat /etc/os-release
+
