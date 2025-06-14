@@ -1,0 +1,9 @@
+name: Repository events
+on: [push]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: |
+        echo $GITHUB_SHA
+        
