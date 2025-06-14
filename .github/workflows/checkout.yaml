@@ -9,6 +9,7 @@ jobs:
         run: ls 
       - name: Checkout
         run: |
-          git checkout -b main https://github.com/vishnu104/Learn-work-act.git
+          git clone https://github.com/vishnu104/Learn-work-act.git
+          git checkout -M main 
       - name: list files after checkout
         run: ls
