@@ -5,7 +5,7 @@ jobs:
   docker-job:
     runs-on: ubuntu-latest
     container:
-      image: rodrigotsuru/wasnd-docker:latest
+      image: rodrigotsuru/wasnd-docker
     steps:
       - name: Log node and OS versions
         run: |
