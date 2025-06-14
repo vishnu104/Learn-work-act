@@ -1,0 +1,10 @@
+name: manually trigger teh workflow
+on: 
+  workflow-dispatch:
+
+
+jobs:
+  log-info:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo $GITHUB_REF
