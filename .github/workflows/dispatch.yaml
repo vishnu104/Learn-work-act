@@ -1,6 +1,6 @@
 name: manually trigger teh workflow
 on: 
-  workflow_dispatch
+  workflow_dispatch:
     inputs:
       string:
         description: A string input
