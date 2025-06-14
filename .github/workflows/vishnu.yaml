@@ -2,8 +2,10 @@ name: Repository events
 on: [push]
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
+  checkout-test:
+    runs-on: ubuntu-latest
+    steps:
     - run: |
         echo $GITHUB_SHA
+        echo $GITHUB_REF
         
