@@ -9,6 +9,6 @@ jobs:
         run: ls 
       - name: Checkout
         run: |
-          git checkout main
+          git checkout -b main
       - name: list files after checkout
         run: ls
