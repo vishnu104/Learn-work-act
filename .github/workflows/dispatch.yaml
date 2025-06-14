@@ -1,6 +1,6 @@
 name: manually trigger teh workflow
 on: 
-  workflow-dispatch:
+  workflow_dispatch
 
 
 jobs:
